@@ -10,8 +10,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.bignerdranch.android.myfitness.FitnessActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+    <TextView android:id="@+id/login_title"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/login_title_hint"
+    />
 </RelativeLayout>

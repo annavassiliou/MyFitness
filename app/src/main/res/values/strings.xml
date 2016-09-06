@@ -6,6 +6,7 @@
     <string name="user_name">jdoe</string>
     <string name="pass_word">welcome1</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="login_title_hint">Logged In: JDOE</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>

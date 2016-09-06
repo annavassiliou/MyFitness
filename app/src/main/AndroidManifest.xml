@@ -6,8 +6,9 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
     <uses-permission android:name="android.permission.READ_PROFILE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
-                     android:maxSdkVersion="18"/>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18"/>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
 
@@ -27,6 +28,20 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".NewSession">
+        </activity>
+        <activity android:name=".PaymentActivity">
+        </activity>
+        <activity android:name=".SessionsActivity">
+        </activity>
+        <activity android:name=".SignatureActivity">
+        </activity>
+        <activity android:name=".ProfileActivity">
+        </activity>
+        <activity android:name=".NewCustActivity">
+        </activity>
+        <activity android:name=".SubmitPaymentActivity">
         </activity>
     </application>
 
